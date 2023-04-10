@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Numbers</title>
+	<style>
+        body {
+            text-align: center;
+        }
+		.column {
+			float: left;
+			width: 33.33%;
+			padding: 10px;
+            border: 1px black solid;
+			box-sizing: border-box;
+		}
+	</style> 
+    <script>
+
+    </script>
+</head>
+
+<body>
+	<h1>Random Numbers</h1>
+	<p>Click the button to generate three random whole numbers between 0 and 20:</p>
+	<button onclick="generate()">Generate Numbers</button>
+	<br><br>
+	<div class="row">
+		<div class="column">
+			<p id="num1"></p>
+		</div>
+		<div class="column">
+			<p id="num2"></p>
+		</div>
+		<div class="column">
+			<p id="num3"></p>
+		</div>
+	</div>
+    <script src="script.js" type="text/javascript"></script>   
+    <p> The most amounts of votes is <span id="largestnumber">_</span> votes</p>
+    <br>
+    <p>The middle name of the person with the most votes : <span id="randomletter"></span></p>
+    
+</body>
+
+</html>
